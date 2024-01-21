@@ -35,6 +35,107 @@
         margin-left: auto;
         margin-right: auto;
         font-family: var(--font);
-        font-size: 18px;
-        line-height: 20px;
+        font-size: var(--body-font-size);
+        line-height: var(--body-line-height);
     }
+
+
+
+@media (max-width: 1200px) {
+
+    .jumbotron {
+        padding-top: 20px;
+        /*background-image: linear-gradient(to bottom, #0F1216, #0F1216);*/
+        background-size: 100% 260px;
+        /*background-repeat: no-repeat;*/
+        /*background-position: center top;*/
+    }
+        .jumbotron__heading {
+            /*font-family: var(--font-heading);*/
+            /*font-weight: normal;*/
+            font-size: 38px !important; /* Перебиваем глобальные стили на <h1> */
+            line-height: 44px !important; /* Перебиваем глобальные стили на <h1> */
+            /*color: #FFFFFF;*/
+            /*text-transform: uppercase;*/
+            /*text-align: center;*/
+        }
+
+        .jumbotron__gallery {
+            margin-top: 8px;
+        }
+            .jumbotron__photo {
+                /*display: block;*/
+            }
+                .jumbotron__pic {
+                    /*vertical-align: top;*/
+                    /*width: 100%;*/
+                    /*height: auto;*/
+                    /*border-radius: 4px;*/
+                    /*background-color: var(--image-fallback);*/
+                }
+
+        .jumbotron__description {
+            width: auto;
+            margin-top: 40px;
+            max-width: 740px;
+            margin-left: 0;
+            margin-right: 0;
+            /*font-family: var(--font);*/
+            /*font-size: 18px;*/
+            /*line-height: 20px;*/
+        }
+}
+
+
+
+
+@media (max-width: 600px) {
+
+    .jumbotron {
+        padding-top: 28px;
+        /*background-image: linear-gradient(to bottom, #0F1216, #0F1216);*/
+        background-size: 100% 228px;
+        /*background-repeat: no-repeat;*/
+        /*background-position: center top;*/
+    }
+        .jumbotron__heading {
+            /*font-family: var(--font-heading);*/
+            /*font-weight: normal;*/
+            max-width: 320px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 28px !important; /* Перебиваем глобальные стили на <h1> */
+            line-height: 40px !important; /* Перебиваем глобальные стили на <h1> */
+            /*color: #FFFFFF;*/
+            /*text-transform: uppercase;*/
+            /*text-align: center;*/
+        }
+
+        .jumbotron__gallery {
+            /*margin-top: 60px;*/
+            max-width: 380px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+            .jumbotron__photo {
+                /*display: block;*/
+            }
+                .jumbotron__pic {
+                    /*vertical-align: top;*/
+                    /*width: 100%;*/
+                    /*height: auto;*/
+                    /*border-radius: 4px;*/
+                    /*background-color: var(--image-fallback);*/
+                }
+
+        .jumbotron__description {
+            width: auto;
+            margin-top: 12px;
+            max-width: 740px;
+            margin-left: 0;
+            margin-right: 0;
+            /*font-family: var(--font);*/
+            /*font-size: 18px;*/
+            /*line-height: 20px;*/
+        }
+}
