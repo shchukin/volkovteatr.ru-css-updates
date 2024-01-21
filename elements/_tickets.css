@@ -47,13 +47,13 @@
         }
 
         .tickets__body {
-            /*margin-top: 34px;*/
+            margin-top: 24px;
         }
             .tickets__item {
                 display: block;
                 margin-top: 24px;
-                border-top: 1px solid #000000;
-                padding-top: 24px;
+                padding-bottom: 16px;
+                border-bottom: 1px solid #000000;
                 /*grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, 1fr); !* важно задать четыре колонки (1fr + 2fr + 1fr) чтобы *!*/
                 /*gap: 16px;*/
             }
