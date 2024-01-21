@@ -7,6 +7,7 @@
     --black: #0F1216;
     --black-20pct: rgba(15, 18, 22, 0.2);
     --black-50pct: rgba(15, 18, 22, 0.5);
+    --gray: #A5A5A5;
     --gray2: #F5F5F5;
     --yellow: #FFC700;
     --transition-default: 200ms ease;

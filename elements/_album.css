@@ -1,0 +1,109 @@
+.album {
+    padding-top: 80px;
+}
+    .album__heading {
+
+    }
+
+    .album__body {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: 332px minmax(0, 451fr) minmax(0, 569fr);
+        gap: 24px;
+    }
+        .album__gallery {
+
+        }
+            .album__caption {
+                margin-top: 22px;
+                font-size: 18px;
+                line-height: 22px;
+                color: var(--gray);
+            }
+
+        .album__description {
+
+        }
+
+        .album__widget {
+
+        }
+
+
+
+@media (width < 1200px) {
+
+    .album {
+        padding-top: 80px;
+    }
+        .album__heading {
+
+        }
+
+        .album__body {
+            /*margin-top: 40px;*/
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "left-top right-top-and-bottom" "left-bottom right-top-and-bottom";
+            grid-template-rows: auto 1fr;
+            gap: 24px 24px;
+        }
+            .album__gallery {
+                grid-area: left-top;
+            }
+                .album__caption {
+                    /*margin-top: 22px;*/
+                    /*font-size: 18px;*/
+                    /*line-height: 22px;*/
+                    /*color: var(--gray);*/
+                }
+
+            .album__description {
+                grid-area: left-bottom;
+            }
+
+            .album__widget {
+                grid-area: right-top-and-bottom;
+            }
+}
+
+
+
+@media (width < 600px) {
+
+    .album {
+        /*padding-top: 80px;*/
+    }
+        .album__heading {
+
+        }
+
+        .album__body {
+            margin-top: 28px;
+            display: block;
+            /*grid-template-columns: repeat(2, minmax(0, 1fr));*/
+            /*grid-template-areas: "left-top right-top-and-bottom" "left-bottom right-top-and-bottom";*/
+            /*grid-template-rows: auto 1fr;*/
+            /*gap: 24px 24px;*/
+        }
+            .album__gallery {
+                /*grid-area: left-top;*/
+                max-width: 380px;
+            }
+                .album__caption {
+                    margin-top: 12px;
+                    font-size: 16px;
+                    line-height: 20px;
+                    /*color: var(--gray);*/
+                }
+
+            .album__description {
+                margin-top: 20px;
+                /*grid-area: left-bottom;*/
+            }
+
+            .album__widget {
+                margin-top: 40px;
+                /*grid-area: right-top-and-bottom;*/
+            }
+}
