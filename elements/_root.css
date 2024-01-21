@@ -11,11 +11,13 @@
     --gray2: #F5F5F5;
     --yellow: #FFC700;
     --transition-default: 200ms ease;
+    --container-padding: 40px;
 }
 
 @media screen and (max-width: 1200px) {
     :root {
         --body-font-size: 16px;
         --body-line-height: 20px;
+        --container-padding: 20px;
     }
 }

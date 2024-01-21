@@ -7,4 +7,9 @@
         height: auto;
         border-radius: 4px;
         background-color: var(--image-fallback);
+        transition: filter var(--transition-default);
+    }
+
+    .preview__pic:hover {
+        filter: brightness(1.1) contrast(1.05);
     }

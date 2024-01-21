@@ -1,0 +1,93 @@
+.play {
+    margin-top: 60px;
+    padding-top: 80px;
+}
+    .play__heading {
+
+    }
+
+    .play__gallery {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(7, minmax(0, 1fr));
+        gap: 20px;
+    }
+        .play__photo {
+
+        }
+            .play__photo .preview__pic {
+                border-radius: 0;
+            }
+
+    .play__schedule {
+        margin-top: 44px;
+    }
+        .play__schedule .event-timetable {
+            margin: 0;
+        }
+
+        .play__schedule .event-timetable__title {
+            padding-bottom: 8px;
+            font-family: var(--font-heading);
+            font-size: 38px;
+            line-height: 44px;
+            color: var(--gray) !important;
+        }
+
+    .play__premiere {
+        max-width: 66.1428%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+@media (max-width: 1200px) {
+
+    .play {
+        margin-top: 24px;
+        padding-top: 60px;
+    }
+        .play__heading {
+
+        }
+
+        .play__gallery {
+            margin-top: 24px;
+            margin-left: calc(-1 * var(--container-padding));
+            margin-right: calc(-1 * var(--container-padding));
+            padding-left: var(--container-padding);
+            padding-right: var(--container-padding);
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            overflow-x: auto;
+        }
+            .play__photo {
+                flex-shrink: 0;
+            }
+                .play__photo .preview__pic {
+                    /*border-radius: 0;*/
+                }
+
+        .play__schedule {
+            margin-top: 39px;
+        }
+            .play__schedule .event-timetable {
+                /*margin: 0;*/
+            }
+
+            .play__schedule .event-timetable__title {
+                padding-bottom: 0;
+                font-size: 22px;
+                line-height: 31px;
+            }
+
+        .play__premiere {
+            margin-top: 40px;
+            max-width: 740px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+}
