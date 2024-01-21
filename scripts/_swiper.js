@@ -1,10 +1,10 @@
-scheduleDayList = new Swiper(".swiper", {
+scheduleDayList = new Swiper(".elements-swiper", {
     navigation: {
-        prevEl: '.swiper-button-prev',
-        nextEl: '.swiper-button-next',
+        prevEl: '.elements-swiper-button-prev',
+        nextEl: '.elements-swiper-button-next',
     },
     pagination: {
-        el: ".swiper-pagination",
+        el: ".elements-swiper-pagination",
         clickable: true,
     },
     mousewheel: {
