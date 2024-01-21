@@ -1,5 +1,5 @@
 .tourism {
-
+    padding-top: 80px;
 }
     .tourism__heading {
         text-align: center;
@@ -37,7 +37,7 @@
 @media (max-width: 900px) {
 
     .tourism {
-
+        padding-top: 60px;
     }
         .tourism__heading {
 

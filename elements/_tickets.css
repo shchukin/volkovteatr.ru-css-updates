@@ -1,5 +1,5 @@
 .tickets {
-    margin-top: 80px;
+    padding-top: 80px;
 }
     .tickets__heading {
 
@@ -40,7 +40,7 @@
 @media (max-width: 1200px) {
 
     .tickets {
-        margin-top: 60px;
+        padding-top: 60px;
     }
         .tickets__heading {
 

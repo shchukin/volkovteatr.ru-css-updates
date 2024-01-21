@@ -1,5 +1,5 @@
 .partners {
-    margin-top: 80px;
+    padding-top: 80px;
 }
     .partners__heading {
         margin-top: 0;
@@ -19,7 +19,7 @@
 @media (max-width: 1200px) {
 
     .partners {
-        margin-top: 60px;
+        padding-top: 60px;
     }
         .partners__heading {
             /*margin-top: 0;*/

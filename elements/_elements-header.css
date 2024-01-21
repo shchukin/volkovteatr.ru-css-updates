@@ -28,6 +28,11 @@
                 line-height: 22px;
                 color: #FFFFFF;
                 text-transform: uppercase;
+                transition: color var(--transition-default);
+            }
+
+            .elements-header__link:hover {
+                color: var(--yellow);
             }
 
 
