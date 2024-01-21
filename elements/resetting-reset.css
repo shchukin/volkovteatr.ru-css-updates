@@ -5,3 +5,17 @@
     -webkit-transition: none;
     transition: none;
 }
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Не было проставлено в изначальном резете */
+*::before {
+    box-sizing: border-box;
+}
+
+*::after {
+    box-sizing: border-box;
+}

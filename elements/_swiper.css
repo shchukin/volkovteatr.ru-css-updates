@@ -1,3 +1,93 @@
 .swiper--elements-theme {
 
 }
+    .swiper--elements-theme .swiper-wrapper {
+
+    }
+        .swiper--elements-theme .swiper-slide {
+
+        }
+
+    .swiper--elements-theme .swiper-actions {
+        margin-top: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        .swiper--elements-theme .swiper-button-prev,
+        .swiper--elements-theme .swiper-button-next {
+            margin-top: 0;
+            position: static;
+            background-image: none;
+            opacity: 1;
+            width: 50px;
+            height: 40px;
+        }
+
+        .swiper--elements-theme .swiper-button-disabled {
+
+        }
+
+        .swiper--elements-theme .swiper-button-next {
+
+        }
+
+        .swiper--elements-theme .swiper-button-prev {
+
+        }
+            .swiper--elements-theme .swiper-arrow {
+                width: 35px;
+                height: 16px;
+                fill: var(--black);
+                transition: var(--transition-default);
+            }
+
+            .swiper--elements-theme .swiper-button-disabled .swiper-arrow {
+                fill: var(--black-50pct);
+            }
+
+            .swiper--elements-theme .swiper-button-prev::after,
+            .swiper--elements-theme .swiper-button-next::after {
+                display: none;
+            }
+
+
+.swiper--elements-theme .swiper-pagination {
+        width: auto;
+        position: static;
+        display: inline-flex;
+        align-items: stretch;
+        justify-content: center;
+    }
+        .swiper--elements-theme .swiper-pagination-bullet {
+            margin: 0 !important; /* !important`ом перебиваем дефолтные стили */
+            width: 18px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: transparent;
+            opacity: 1;
+        }
+            .swiper--elements-theme .swiper-pagination-bullet::after {
+                content: "";
+                display: block;
+                width: 12px;
+                height: 12px;
+                border: 1px solid var(--black);
+                border-radius: 50%;
+                transition: var(--transition-default);
+            }
+
+            .swiper--elements-theme .swiper-pagination-bullet:hover::after {
+                background-color: var(--black-20pct);
+            }
+
+        .swiper--elements-theme .swiper-pagination-bullet-active {
+            background-color: transparent;
+            cursor: default;
+        }
+            .swiper--elements-theme .swiper-pagination-bullet-active::after,
+            .swiper--elements-theme .swiper-pagination-bullet-active:hover::after {
+                background-color: var(--black);
+            }

@@ -5,6 +5,8 @@
     --body-line-height: 24px;
     --image-fallback: #323C4A;
     --black: #0F1216;
+    --black-20pct: rgba(15, 18, 22, 0.2);
+    --black-50pct: rgba(15, 18, 22, 0.5);
     --gray2: #F5F5F5;
-    --transition-hover: 200ms ease;
+    --transition-default: 200ms ease;
 }

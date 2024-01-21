@@ -1,0 +1,35 @@
+.title {
+    font-family: var(--font-heading);
+    text-transform: uppercase;
+}
+
+
+
+/* h2 на десктопах, h3 на мобилках -- названия из Фигмы */
+.title--h2-h3 {
+    font-size: 38px;
+    line-height: 44px;
+}
+
+@media screen and (max-width: 1200px) {
+    .title--h2-h3 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+
+
+/* h2 на десктопах, h4 на мобилках -- названия из Фигмы */
+.title--h2-h4 {
+    font-size: 38px;
+    line-height: 44px;
+}
+
+@media screen and (max-width: 1200px) {
+    .title--h2-h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+}

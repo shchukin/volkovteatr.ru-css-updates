@@ -1,7 +1,4 @@
 .elements-page {
     font-family: var(--font);
-}
-
-.elements-page * {
-    font-family: inherit;
+    color: var(--black);
 }
