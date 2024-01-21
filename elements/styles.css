@@ -1,8 +1,11 @@
 @import url("../vendors/swiper/swiper-bundle.min.css");
 @import url("_root.css");
+@import url("_elements-page.css");
 @import url("_elements-container.css");
 @import url("_elements-header.css");
 @import url("_jumbotron.css");
 @import url("_wysiwyg.css");
 @import url("_deal.css");
+@import url("_button.css");
+@import url("_swiper.css");
 

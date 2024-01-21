@@ -1,0 +1,7 @@
+.elements-page {
+    font-family: var(--font);
+}
+
+.elements-page * {
+    font-family: inherit;
+}
