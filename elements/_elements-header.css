@@ -4,8 +4,8 @@
 }
     .elements-header__wrap {
         position: relative;
-        padding-top: 83px;
-        padding-bottom: 83px;
+        padding-top: 70px;
+        padding-bottom: 70px;
         text-align: center;
     }
         .elements-header__logo {
@@ -19,9 +19,10 @@
         .elements-header__nav {
             display: inline-flex;
             align-items: flex-start;
-            gap: 82px;
+            gap: 42px;
         }
             .elements-header__link {
+                padding: 13px 20px;
                 font-family: var(--font-heading);
                 font-size: 18px;
                 line-height: 22px;
@@ -42,8 +43,8 @@
 
     }
         .elements-header__wrap {
-            padding-top: 60px;
-            padding-bottom: 60px;
+            padding-top: 47px;
+            padding-bottom: 47px;
         }
             .elements-header__logo {
                 left: 0;
