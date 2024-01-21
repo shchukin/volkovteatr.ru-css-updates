@@ -1,0 +1,138 @@
+.exhibition {
+    margin-top: 60px;
+    padding-top: 80px;
+}
+    .exhibition__heading {
+        text-align: center;
+    }
+
+    .exhibition__body {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 454px 1fr;
+        gap: 22px;
+    }
+        .exhibition__gallery {
+
+        }
+
+        .exhibition__content {
+
+        }
+            .exhibition__date {
+                font-family: var(--font-heading);
+                font-size: 28px;
+                line-height: 32px;
+            }
+
+            .exhibition__time {
+                margin-top: 16px;
+                font-family: var(--font-heading);
+                font-size: 20px;
+                line-height: 24px;
+            }
+
+            .exhibition__summary {
+                margin-top: 34px;
+                max-width: 685px;
+            }
+
+            .exhibition__details {
+                font-size: var(--body-font-size);
+                line-height: var(--body-line-height);
+            }
+
+            .exhibition__footer {
+                margin-top: 18px;
+                display: flex;
+                align-items: center;
+                gap: 40px;
+            }
+                .exhibition__location {
+                    flex-grow: 1;
+                    max-width: 400px;
+                    padding-left: 28px;
+                    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+ICAgIDxwYXRoIGZpbGw9IiMwRjEyMTYiIGQ9Ik03IDEuNzVBNi4xMiA2LjEyIDAgMCAwIC44NzUgNy44NzVDLjg3NSAxMi40NjkgNyAxOS4yNSA3IDE5LjI1czYuMTI1LTYuNzgxIDYuMTI1LTExLjM3NUE2LjEyIDYuMTIgMCAwIDAgNyAxLjc1em0wIDguMzEzYTIuMTg4IDIuMTg4IDAgMSAxIC4wMDItNC4zNzdBMi4xODggMi4xODggMCAwIDEgNyAxMC4wNjN6Ii8+PC9zdmc+);
+                    background-repeat: no-repeat;
+                    background-position: left 2px;
+                    font-family: var(--font-heading);
+                    font-size: 20px;
+                    line-height: 23px;
+                }
+
+                .exhibition__ticket {
+                    margin-left: auto;
+                    flex-shrink: 0;
+                }
+
+
+
+@media (max-width: 1200px) {
+
+    .exhibition {
+        margin-top: 15px;
+        padding-top: 60px;
+    }
+        .exhibition__heading {
+            /*text-align: center;*/
+        }
+
+        .exhibition__body {
+            margin-top: 23px;
+            display: block;
+            /*grid-template-columns: 454px 1fr;*/
+            /*gap: 22px;*/
+        }
+            .exhibition__gallery {
+                max-width: 380px;
+            }
+
+            .exhibition__content {
+                margin-top: 10px;
+            }
+                .exhibition__date {
+                    /*font-family: var(--font-heading);*/
+                    font-size: 22px;
+                    line-height: 25px;
+                }
+
+                .exhibition__time {
+                    margin-top: 12px;
+                    /*font-family: var(--font-heading);*/
+                    font-size: 18px;
+                    line-height: 21px;
+                }
+
+                .exhibition__summary {
+                    margin-top: 26px;
+                    /*max-width: 685px;*/
+                }
+
+                .exhibition__details {
+                    margin-top: 8px;
+                }
+
+                .exhibition__footer {
+                    margin-top: 18px;
+                    display: block;
+                    /*align-items: center;*/
+                    /*gap: 40px;*/
+                }
+                    .exhibition__location {
+                        /*flex-grow: 1;*/
+                        /*max-width: 400px;*/
+                        /*padding-left: 28px;*/
+                        /*background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+ICAgIDxwYXRoIGZpbGw9IiMwRjEyMTYiIGQ9Ik03IDEuNzVBNi4xMiA2LjEyIDAgMCAwIC44NzUgNy44NzVDLjg3NSAxMi40NjkgNyAxOS4yNSA3IDE5LjI1czYuMTI1LTYuNzgxIDYuMTI1LTExLjM3NUE2LjEyIDYuMTIgMCAwIDAgNyAxLjc1em0wIDguMzEzYTIuMTg4IDIuMTg4IDAgMSAxIC4wMDItNC4zNzdBMi4xODggMi4xODggMCAwIDEgNyAxMC4wNjN6Ii8+PC9zdmc+);*/
+                        /*background-repeat: no-repeat;*/
+                        background-position: left 1px;
+                        /*font-family: var(--font-heading);*/
+                        font-size: 18px;
+                        line-height: 22px;
+                    }
+
+                    .exhibition__ticket {
+                        margin-top: 22px;
+                        /*margin-left: auto;*/
+                        /*flex-shrink: 0;*/
+                    }
+    }

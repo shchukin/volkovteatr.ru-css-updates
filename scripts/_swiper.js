@@ -70,3 +70,20 @@ new Swiper(".swiper--init-jumbotron", {
         },
     }
 });
+
+
+new Swiper(".swiper--exhibition", {
+    navigation: {
+        prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next',
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    mousewheel: {
+        forceToAxis: true,
+    },
+    slidesPerView: 1,
+    slidesPerGroup: 1,
+});

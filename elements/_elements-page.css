@@ -1,4 +1,6 @@
 .elements-page {
     font-family: var(--font);
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
     color: var(--black);
 }

@@ -1,0 +1,96 @@
+.collapse {
+
+}
+    .collapse__handler {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        background-color: transparent;
+        border: none;
+        padding: 12px 34px 12px 0;
+        font-family: inherit;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        cursor: pointer;
+        transition: color var(--transition-default);
+    }
+
+    .collapse__handler:hover {
+        color: var(--yellow);
+    }
+        .collapse__chevron {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            margin-top: -6px;
+            fill: currentColor;
+            transition: transform var(--transition-default);
+        }
+
+    .collapse__dropdown {
+        display: none;
+        margin-top: 6px;
+        animation: slide-down var(--transition-default);
+    }
+
+
+.collapse--expanded {
+
+}
+    .collapse--expanded .collapse__chevron {
+        transform: scaleY(-1);
+    }
+
+    .collapse--expanded .collapse__dropdown {
+        display: block;
+    }
+
+
+
+@media (max-width: 1200px) {
+
+    .collapse {
+
+    }
+        .collapse__handler {
+            /*position: relative;*/
+            width: 100%;
+            /*background-color: transparent;*/
+            /*border: none;*/
+            /*padding: 12px 34px 12px 0;*/
+            /*font-family: inherit;*/
+            /*font-weight: 600;*/
+            font-size: 16px;
+            line-height: 22px;
+            /*cursor: pointer;*/
+            /*transition: color var(--transition-default);*/
+        }
+            .collapse__handler::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 8px;
+                height: 1px;
+                background-color: var(--black);
+            }
+
+        .collapse__handler:hover {
+            /*color: var(--yellow);*/
+        }
+            .collapse__chevron {
+                /*position: absolute;*/
+                /*right: 0;*/
+                /*top: 50%;*/
+                /*margin-top: -6px;*/
+                /*fill: currentColor;*/
+                /*transition: transform var(--transition-default);*/
+            }
+
+        .collapse__dropdown {
+            /*display: none;*/
+            margin-top: 3px;
+            /*animation: slide-down var(--transition-default);*/
+        }
+}
