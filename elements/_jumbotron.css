@@ -1,5 +1,9 @@
 .jumbotron {
-    /*margin-top: -260px;*/
+    padding-top: 82px;
+    background-image: linear-gradient(to bottom, #0F1216, #0F1216);
+    background-size: 100% 384px;
+    background-repeat: no-repeat;
+    background-position: center top;
 }
     .jumbotron__heading {
         font-family: var(--font-heading);
