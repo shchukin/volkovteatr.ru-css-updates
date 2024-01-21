@@ -1,0 +1,10 @@
+.preview {
+    display: block;
+}
+    .preview__pic {
+        vertical-align: top;
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+        background-color: var(--image-fallback);
+    }

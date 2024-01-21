@@ -5,19 +5,18 @@
 
 
 
-/* h2 на десктопах, h3 на мобилках -- названия из Фигмы */
-.title--h2-h3 {
-    font-size: 38px;
-    line-height: 44px;
+/* h1 на десктопах, h3 на мобилках -- названия из Фигмы */
+.title--h1-h3 {
+    font-size: 44px;
+    line-height: 51px;
 }
 
 @media (max-width: 1200px) {
-    .title--h2-h3 {
+    .title--h1-h3 {
         font-size: 28px;
         line-height: 40px;
     }
 }
-
 
 
 /* h2 на десктопах, h4 на мобилках -- названия из Фигмы */

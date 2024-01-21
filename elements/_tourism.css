@@ -1,0 +1,33 @@
+.tourism {
+
+}
+    .tourism__heading {
+        text-align: center;
+    }
+
+    .tourism__body {
+        margin-top: 40px;
+        position: relative;
+        display: grid;
+        grid-template-columns: 53.6429% 40.6429%;
+        grid-template-rows: auto 1fr;
+        grid-template-areas: "left-top right-top-and-bottom" "left-bottom right-top-and-bottom";
+        gap: 0 5.7142%;
+    }
+        .tourism__sub-heading {
+            display: block;
+            grid-area: left-top;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 42px;
+        }
+
+        .tourism__gallery {
+            grid-area: right-top-and-bottom;
+        }
+
+        .tourism__description {
+            margin-top: 24px;
+            max-width: 600px;
+            grid-area: left-bottom;
+        }
