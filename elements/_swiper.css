@@ -52,6 +52,16 @@
             }
 
 
+@media (max-width: 600px) {
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
+}
+
+
+
 .swiper--elements-theme .swiper-pagination {
         width: auto;
         position: static;

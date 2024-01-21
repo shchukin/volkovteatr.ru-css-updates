@@ -1,4 +1,4 @@
-scheduleDayList = new Swiper(".swiper--init-partners", {
+new Swiper(".swiper--init-partners", {
     navigation: {
         prevEl: '.swiper-button-prev',
         nextEl: '.swiper-button-next',
@@ -32,7 +32,7 @@ scheduleDayList = new Swiper(".swiper--init-partners", {
     }
 });
 
-scheduleDayList = new Swiper(".swiper--tourism", {
+new Swiper(".swiper--tourism", {
     navigation: {
         prevEl: '.swiper-button-prev',
         nextEl: '.swiper-button-next',
@@ -45,5 +45,5 @@ scheduleDayList = new Swiper(".swiper--tourism", {
         forceToAxis: true,
     },
     slidesPerView: 1,
-    slidesPerGroup: 1
+    slidesPerGroup: 1,
 });
