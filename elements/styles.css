@@ -3,6 +3,7 @@
 @import url("_elements-page.css");
 @import url("_elements-container.css");
 @import url("_elements-header.css");
+@import url("_elements-footer.css");
 @import url("_jumbotron.css");
 @import url("_wysiwyg.css");
 @import url("_deal.css");
@@ -13,4 +14,5 @@
 @import url("_tickets.css");
 @import url("_tourism.css");
 @import url("_preview.css");
+@import url("_support.css");
 

@@ -1,0 +1,94 @@
+.elements-footer {
+    margin-top: 80px;
+    padding-top: 38px;
+    padding-bottom: 64px;
+    background-color: #1B2027;
+    color: #FFFFFF;
+}
+    .elements-footer__wrap {
+
+    }
+        .elements-footer__description {
+            font-size: var(--body-font-size);
+            line-height: var(--body-line-height);
+        }
+
+        .elements-footer__list {
+            display: flex;
+            justify-content: space-between;
+            gap: 24px;
+        }
+            .elements-footer__item {
+
+            }
+
+        .elements-footer__developer {
+            margin-top: 40px;
+            width: fit-content;
+            margin-left: auto;
+            font-size: 14px;
+        }
+            .elements-footer__red-star {
+                position: relative;
+                top: 6px;
+                vertical-align: baseline;
+                margin-left: 6px;
+                width: 104px;
+                height: 21px;
+            }
+
+
+
+@media (max-width: 1200px) {
+
+    .elements-footer {
+        margin-top: 60px;
+        padding-top: 24px;
+        padding-bottom: 26px;
+    }
+        .elements-footer__wrap {
+
+        }
+            .elements-footer__description {
+
+            }
+
+            .elements-footer__list {
+                margin-top: 24px;
+            }
+                .elements-footer__item {
+
+                }
+
+            .elements-footer__developer {
+                margin-top: 24px;
+                font-size: 13px;
+            }
+                .elements-footer__red-star {
+                    /*position: relative;*/
+                    top: 4px;
+                    /*vertical-align: baseline;*/
+                    /*margin-left: 6px;*/
+                    width: 77px;
+                    height: 16px;
+                }
+}
+
+
+@media (max-width: 900px) {
+
+    .elements-footer__list {
+        max-width: 500px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 0 20px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .elements-footer__list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0 12px;
+    }
+}
