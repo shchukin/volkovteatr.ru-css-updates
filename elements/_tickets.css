@@ -1,0 +1,88 @@
+.tickets {
+    margin-top: 80px;
+}
+    .tickets__heading {
+
+    }
+
+    .tickets__body {
+        margin-top: 34px;
+    }
+        .tickets__item {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, 1fr); /* важно задать четыре колонки (1fr + 2fr + 1fr) чтобы */
+            gap: 16px;
+        }
+
+        .tickets__item:first-child {
+            margin-top: 0;
+        }
+            .tickets__sub-heading {
+                margin-top: 0;
+                margin-bottom: 0;
+                padding-right: 16px;
+                font-weight: 600;
+                font-size: 22px;
+                line-height: 26px;
+            }
+
+            .tickets__contains {
+
+            }
+
+            .tickets__actions {
+                text-align: right;
+            }
+
+
+
+@media (max-width: 1200px) {
+
+    .tickets {
+        margin-top: 60px;
+    }
+        .tickets__heading {
+
+        }
+
+        .tickets__body {
+            /*margin-top: 34px;*/
+        }
+            .tickets__item {
+                display: block;
+                margin-top: 24px;
+                border-top: 1px solid #000000;
+                padding-top: 24px;
+                /*grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, 1fr); !* важно задать четыре колонки (1fr + 2fr + 1fr) чтобы *!*/
+                /*gap: 16px;*/
+            }
+
+            .tickets__item:first-child {
+                /*margin-top: 0;*/
+            }
+                .tickets__sub-heading {
+                    /*margin-top: 0;*/
+                    /*margin-bottom: 0;*/
+                    /*padding-right: 16px;*/
+                    /*font-weight: 600;*/
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+
+                .tickets__contains {
+                    margin-top: 24px;
+                }
+
+                .tickets__actions {
+                    margin-top: 24px;
+                    text-align: left;
+                }
+
+                @media (max-width: 600px) {
+                    .tickets__actions {
+                        text-align: right;
+                    }
+                }
+
+}

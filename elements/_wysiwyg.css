@@ -33,6 +33,11 @@
     margin-bottom: 0;
 }
 
+.wysiwyg ul,
+.wysiwyg ol {
+    padding-left: 24px;
+}
+
 
 .wysiwyg h2 {
 
