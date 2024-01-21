@@ -1,0 +1,39 @@
+.jumbotron {
+    margin-top: -260px;
+}
+    .jumbotron__heading {
+        font-family: var(--font-heading);
+        font-weight: normal;
+        font-size: 44px !important; /* Перебиваем глобальные стили на <h1> */
+        line-height: 44px !important; /* Перебиваем глобальные стили на <h1> */
+        color: #FFFFFF;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .jumbotron__gallery {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+        .jumbotron__photo {
+            display: block;
+        }
+            .jumbotron__pic {
+                vertical-align: top;
+                width: 100%;
+                height: auto;
+                border-radius: 4px;
+                background-color: var(--image-fallback);
+            }
+
+    .jumbotron__description {
+        width: 66.1428%;
+        margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: var(--font);
+        font-size: 18px;
+        line-height: 20px;
+    }

@@ -1,0 +1,7 @@
+:root {
+    --font: 'Roboto', sans-serif;
+    --font-heading: 'Cuprum', sans-serif;
+    --body-font-size: 18px;
+    --body-line-height: 24px;
+    --image-fallback: #323C4A;
+}

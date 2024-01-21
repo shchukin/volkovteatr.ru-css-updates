@@ -1,0 +1,18 @@
+.elements-header {
+    height: 572px;
+    background-color: #0F1216;
+    color: #FFFFFF;
+}
+    .elements-header__wrap {
+
+    }
+        .elements-header__logo {
+
+        }
+
+        .elements-header__nav {
+
+        }
+            .elements-header__link {
+                color: #FFFFFF;
+            }
