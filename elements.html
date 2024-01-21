@@ -9,17 +9,39 @@
         <link href="elements/styles.css" rel="stylesheet">
     </head>
     <body>
-        <header class="elements-header">
-            <div class="elements-header__wrap elements-container">
-                <a class="elements-header__link" href="#">О проекте</a>
-                <a class="elements-header__link" href="#">Выставка</a>
-                <a class="elements-header__link" href="#">Спектакль</a>
-                <a class="elements-header__link" href="#">Музыка</a>
-                <a class="elements-header__link" href="#">Туристам</a>
-            </div>
-        </header>
         <div class="elements-page">
-            <div class="elements-page__wrap elements-container">
+            <header class="elements-header">
+                <div class="elements-header__wrap elements-container">
+                    <picture>
+<!--                        <source srcset="content/logo@3x.avif 3x,-->
+<!--                                        content/logo@2x.avif 2x,-->
+<!--                                        content/logo@1.5x.avif 1.5x,-->
+<!--                                        content/logo@1.25x.avif 1.25x,-->
+<!--                                        content/logo@1x.avif 1x"-->
+<!--                                type="image/avif"-->
+<!--                        >-->
+                        <img class="elements-header__logo"
+                             srcset="content/logo/logo@3x.png 3x,
+                                     content/logo/logo@2x.png 2x,
+                                     content/logo/logo@1.5x.png 1.5x,
+                                     content/logo/logo@1.25x.png 1.25x,
+                                     content/logo/logo@1x.png 1x"
+                             src="content/logo/logo@1x.png"
+                             width="134"
+                             height="140"
+                             alt=""
+                        >
+                    </picture>
+                    <nav class="elements-header__nav">
+                        <a class="elements-header__link" href="#">О проекте</a>
+                        <a class="elements-header__link" href="#">Выставка</a>
+                        <a class="elements-header__link" href="#">Спектакль</a>
+                        <a class="elements-header__link" href="#">Музыка</a>
+                        <a class="elements-header__link" href="#">Туристам</a>
+                    </nav>
+                </div>
+            </header>
+            <div class="elements-container">
                 <div class="jumbotron">
                     <h1 class="jumbotron__heading">
                         Междисциплинарный проект «Три стихии»

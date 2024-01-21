@@ -9,6 +9,7 @@
 
     }
         .elements-footer__description {
+            max-width: 65.714%;
             font-size: var(--body-font-size);
             line-height: var(--body-line-height);
         }
@@ -65,10 +66,8 @@
                 font-size: 13px;
             }
                 .elements-footer__red-star {
-                    /*position: relative;*/
                     top: 4px;
-                    /*vertical-align: baseline;*/
-                    /*margin-left: 6px;*/
+                    margin-left: 4px;
                     width: 77px;
                     height: 16px;
                 }
@@ -76,6 +75,10 @@
 
 
 @media (max-width: 900px) {
+
+    .elements-footer__description {
+        max-width: none;
+    }
 
     .elements-footer__list {
         max-width: 500px;

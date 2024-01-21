@@ -1,18 +1,87 @@
 .elements-header {
-    height: 572px;
+    /*height: 572px;*/
     background-color: #0F1216;
     color: #FFFFFF;
 }
     .elements-header__wrap {
-
+        position: relative;
+        padding-top: 83px;
+        padding-bottom: 83px;
+        text-align: center;
     }
         .elements-header__logo {
-
+            position: absolute;
+            left: 5px;
+            top: 23px;
+            width: 134px;
+            height: 140px;
         }
 
         .elements-header__nav {
-
+            display: inline-flex;
+            align-items: flex-start;
+            gap: 82px;
         }
             .elements-header__link {
+                font-family: var(--font-heading);
+                font-size: 18px;
+                line-height: 22px;
                 color: #FFFFFF;
+                text-transform: uppercase;
             }
+
+
+
+@media (max-width: 1200px) {
+
+    .elements-header {
+
+    }
+        .elements-header__wrap {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+            .elements-header__logo {
+                left: 0;
+                top: 18px;
+                width: 100px;
+                height: 105px;
+            }
+
+            .elements-header__nav {
+                /*display: inline-flex;*/
+                /*align-items: flex-start;*/
+                gap: 40px;
+            }
+                .elements-header__link {
+                    /*font-family: var(--font-heading);*/
+                    /*font-size: 18px;*/
+                    /*line-height: 22px;*/
+                    /*color: #FFFFFF;*/
+                    /*text-transform: uppercase;*/
+                }
+}
+
+
+@media (max-width: 900px) {
+
+    .elements-header {
+
+    }
+        .elements-header__wrap {
+            height: 112px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+            .elements-header__logo {
+                /*left: 0;*/
+                top: 16px;
+                width: 76px;
+                height: 79px;
+            }
+
+            .elements-header__nav {
+                display: none;
+            }
+
+}
