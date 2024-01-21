@@ -13,3 +13,24 @@
     .partners__body .swiper-actions {
         padding-top: 20px;
     }
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .partners {
+        margin-top: 60px;
+    }
+        .partners__heading {
+            /*margin-top: 0;*/
+            /*margin-bottom: 0;*/
+        }
+
+        .partners__body {
+            margin-top: 24px;
+        }
+
+        .partners__body .swiper-actions {
+            padding-top: 0;
+        }
+}

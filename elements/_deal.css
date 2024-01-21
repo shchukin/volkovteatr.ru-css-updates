@@ -25,3 +25,32 @@
         .deal__footer .button {
             width: 100%;
         }
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .deal {
+
+    }
+        .deal__content {
+            padding: 16px 13px 14px;
+        }
+            .deal__amount {
+                font-size: 18px;
+                line-height: 21px;
+            }
+
+            .deal__logo {
+                margin-top: 8px;
+                height: 53px;
+            }
+
+        .deal__footer {
+
+        }
+            .deal__footer .button {
+
+            }
+}
