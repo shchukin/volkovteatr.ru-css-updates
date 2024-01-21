@@ -17,9 +17,6 @@
 
     .jumbotron__gallery {
         margin-top: 60px;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 25px;
     }
         .jumbotron__photo {
             display: block;

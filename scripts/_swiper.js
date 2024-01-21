@@ -47,3 +47,26 @@ new Swiper(".swiper--tourism", {
     slidesPerView: 1,
     slidesPerGroup: 1,
 });
+
+new Swiper(".swiper--init-jumbotron", {
+    navigation: {
+        prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next',
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    mousewheel: {
+        forceToAxis: true,
+    },
+    slidesPerView: 1,
+    slidesPerGroup: 1,
+    breakpoints: {
+        600: { /* Здесь так же 4-ре слайда, как и выше, но это уже десктопные, увеличенные слайды. И параметр spaceBetween больше  */
+            slidesPerView: 3,
+            slidesPerGroup: 2,
+            spaceBetween: 25,
+        },
+    }
+});
