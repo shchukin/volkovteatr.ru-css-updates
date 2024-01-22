@@ -1,24 +1,6 @@
 (function($) {
 
-    $('.elements-header__link').on('click', function (event) {
-        event.preventDefault();
-
-        /* Сначала закрываем бургердигт */
-        closeBurger();
-
-        /* Якорь */
-        const $target = $( $(this).attr('href') );
-        const headerHeight = ($('.elements-header__desktop-panel').css('position') === 'fixed' || $('.elements-header__mobile-panel').css('position') === 'fixed') ? $('.elements-header').outerHeight() : 0;
-
-        if( $target.length ) {
-            $('html, body').animate({
-                scrollTop: $target.offset().top - headerHeight
-            }, 800);
-        }
-
-    });
-
-
+    /* Бургер */
 
     const $html = $('html');
     let rememberedPageScrollPosition = 0;
@@ -42,6 +24,30 @@
         } else {
             closeBurger();
         }
+    });
+
+
+
+    /* Якорь */
+
+    $('.elements-header__link').on('click', function (event) {
+        event.preventDefault();
+
+        /* Сначала закрываем бургер */
+        closeBurger();
+
+        
+        /* Непосредственно якорь */
+
+        const $target = $( $(this).attr('href') );
+        const headerHeight = ($('.elements-header__desktop-panel').css('position') === 'fixed' || $('.elements-header__mobile-panel').css('position') === 'fixed') ? $('.elements-header').outerHeight() : 0;
+
+        if( $target.length ) {
+            $('html, body').animate({
+                scrollTop: $target.offset().top - headerHeight
+            }, 800);
+        }
+
     });
 
 
