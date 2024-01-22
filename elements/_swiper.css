@@ -42,6 +42,11 @@
                 transition: var(--transition-default);
             }
 
+            .swiper--elements-theme .swiper-button-prev:hover .swiper-arrow,
+            .swiper--elements-theme .swiper-button-next:hover .swiper-arrow {
+                fill: var(--yellow);
+            }
+
             .swiper--elements-theme .swiper-button-disabled .swiper-arrow {
                 fill: var(--black-50pct);
             }
