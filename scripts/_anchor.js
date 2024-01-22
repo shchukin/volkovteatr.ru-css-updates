@@ -6,7 +6,7 @@
         event.preventDefault();
 
         const $target = $( $(this).attr('href') );
-        const headerHeight = $('.elements-header').css('position') === 'fixed' ? $('.elements-header').outerHeight() : 0;
+        const headerHeight = ($('.elements-header__desktop-panel').css('position') === 'fixed' || $('.elements-header__mobile-panel').css('position') === 'fixed') ? $('.elements-header').outerHeight() : 0;
         const scrollDistance = $target.offset().top - $(this).offset().top - headerHeight;
         const animationDuration = Math.max(Math.abs(scrollDistance) / scrollSpeedPer100ms * 100, 300); /* Not less than 300ms (for short distance) */
         const scrollCoordinate = $target.offset().top - headerHeight;

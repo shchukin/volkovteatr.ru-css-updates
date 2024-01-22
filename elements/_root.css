@@ -12,12 +12,22 @@
     --yellow: #FFC700;
     --transition-default: 200ms ease;
     --container-padding: 40px;
+    --header-height: 188px;
+    --header-color: #0F1216;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
     :root {
+        --header-height: 142px;
         --body-font-size: 16px;
         --body-line-height: 20px;
         --container-padding: 20px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    :root {
+        --header-height: 112px;
     }
 }

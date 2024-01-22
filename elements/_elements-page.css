@@ -4,3 +4,17 @@
     line-height: var(--body-line-height);
     color: var(--black);
 }
+
+@media (max-width: 1200px) {
+    .elements-page {
+
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    .burger-expanded .elements-page {
+        display: none;
+    }
+}

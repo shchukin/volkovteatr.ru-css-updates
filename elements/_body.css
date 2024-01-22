@@ -1,0 +1,10 @@
+body {
+
+}
+
+@media (width < 900px) {
+
+    .burger-expanded body {
+        background-color: var(--header-color);
+    }
+}

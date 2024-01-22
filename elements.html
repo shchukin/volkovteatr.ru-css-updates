@@ -9,37 +9,46 @@
         <link href="elements/styles.css" rel="stylesheet">
     </head>
     <body>
-        <div class="elements-page">
-            <header class="elements-header">
+        <header class="elements-header">
+            <div class="elements-header__desktop-panel">
                 <div class="elements-header__wrap elements-container">
-                    <picture>
-                        <source srcset="content/logo/logo@3x.avif 3x,
-                                        content/logo/logo@2x.avif 2x,
-                                        content/logo/logo@1.5x.avif 1.5x,
-                                        content/logo/logo@1.25x.avif 1.25x,
-                                        content/logo/logo@1x.avif 1x"
-                                type="image/avif"
-                        >
-                        <img class="elements-header__logo"
-                             srcset="content/logo/logo@3x.png 3x,
-                                     content/logo/logo@2x.png 2x,
-                                     content/logo/logo@1.5x.png 1.5x,
-                                     content/logo/logo@1.25x.png 1.25x,
-                                     content/logo/logo@1x.png 1x"
-                             src="content/logo/logo@1x.png"
-                             width="134"
-                             height="140"
-                             alt=""
-                        >
-                    </picture>
-                    <nav class="elements-header__nav">
-                        <a class="elements-header__link anchor" href="#exhibition">Выставка</a>
-                        <a class="elements-header__link anchor" href="#play">Спектакль</a>
-                        <a class="elements-header__link anchor" href="#music">Музыка</a>
-                        <a class="elements-header__link anchor" href="#tourism">Туристам</a>
-                    </nav>
+                    <div class="elements-header__mobile-panel">
+                        <picture>
+                            <source srcset="content/logo/logo@3x.avif 3x,
+                                                    content/logo/logo@2x.avif 2x,
+                                                    content/logo/logo@1.5x.avif 1.5x,
+                                                    content/logo/logo@1.25x.avif 1.25x,
+                                                    content/logo/logo@1x.avif 1x"
+                                    type="image/avif"
+                            >
+                            <img class="elements-header__logo"
+                                 srcset="content/logo/logo@3x.png 3x,
+                                                 content/logo/logo@2x.png 2x,
+                                                 content/logo/logo@1.5x.png 1.5x,
+                                                 content/logo/logo@1.25x.png 1.25x,
+                                                 content/logo/logo@1x.png 1x"
+                                 src="content/logo/logo@1x.png"
+                                 width="134"
+                                 height="140"
+                                 alt=""
+                            >
+                        </picture>
+                        <button class="elements-header__burger" type="button">
+                            Открыть меню
+                        </button>
+                    </div>
+                    <div class="elements-header__mobile-dropdown">
+                        <nav class="elements-header__nav">
+                            <a class="elements-header__link anchor" href="#exhibition">Выставка</a>
+                            <a class="elements-header__link anchor" href="#play">Спектакль</a>
+                            <a class="elements-header__link anchor" href="#music">Музыка</a>
+                            <a class="elements-header__link anchor" href="#tourism">Туристам</a>
+                        </nav>
+                    </div>
                 </div>
-            </header>
+            </div>
+        </header>
+        <div class="elements-page">
             <div class="jumbotron">
                 <div class="jumbotron__wrap elements-container">
                     <h1 class="jumbotron__heading">
@@ -1195,8 +1204,9 @@
 
         <script src="vendors/jquery/jquery-3.7.1.min.js"></script>
         <script src="vendors/swiper/swiper-bundle.min.js"></script>
-        <script src="scripts/_anchor.js"></script>
         <script src="scripts/_swiper.js"></script>
         <script src="scripts/_collapse.js"></script>
+        <script src="scripts/_elements-header.js"></script>
+        <script src="scripts/_anchor.js"></script>
     </body>
 </html>
