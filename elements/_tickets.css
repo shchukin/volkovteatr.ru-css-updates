@@ -80,6 +80,20 @@
                 text-align: right;
             }
 
+    .tickets__privileges {
+        margin-top: 45px;
+        border-top: 1px solid var(--black);
+        padding-top: 24px;
+    }
+        .tickets__privileges-inner {
+            max-width: 1108px;
+            padding-left: 44px;
+            background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjgiIGhlaWdodD0iMjgiIHZpZXdCb3g9IjAgMCAyOCAyOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTEyLjgzMyA4LjE2N2gyLjMzNFYxMC41aC0yLjMzNFY4LjE2N3ptMCA0LjY2NmgyLjMzNHY3aC0yLjMzNHYtN3pNMTQgMi4zMzNDNy41NiAyLjMzMyAyLjMzMyA3LjU2IDIuMzMzIDE0YzAgNi40NCA1LjIyNyAxMS42NjcgMTEuNjY3IDExLjY2NyA2LjQ0IDAgMTEuNjY3LTUuMjI3IDExLjY2Ny0xMS42NjdDMjUuNjY3IDcuNTYgMjAuNDQgMi4zMzMgMTQgMi4zMzN6bTAgMjFjLTUuMTQ1IDAtOS4zMzMtNC4xODgtOS4zMzMtOS4zMzMgMC01LjE0NSA0LjE4OC05LjMzMyA5LjMzMy05LjMzMyA1LjE0NSAwIDkuMzMzIDQuMTg4IDkuMzMzIDkuMzMzIDAgNS4xNDUtNC4xODggOS4zMzMtOS4zMzMgOS4zMzN6IiBmaWxsPSIjMEYxMjE2Ii8+PC9zdmc+);
+            background-size: 28px 28px;
+            background-repeat: no-repeat;
+            background-position: left 0;
+        }
+
 
 
 @media (max-width: 1200px) {
@@ -142,13 +156,17 @@
 
                 .tickets__actions {
                     margin-top: 24px;
-                    text-align: left;
                 }
 
-                @media (max-width: 600px) {
-                    .tickets__actions {
-                        text-align: right;
-                    }
-                }
+
+    .tickets__privileges {
+        margin-top: 24px;
+        padding-top: 0;
+        border-top: none;
+    }
+        .tickets__privileges-inner {
+            padding-left: 38px;
+            background-size: 24px 24px;
+        }
 
 }
