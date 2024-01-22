@@ -21,11 +21,11 @@
         @supports (background: image-set("foo.png" type("image/png")) ) {
             .guide__inner {
                 background-image: image-set(
-                    /*url("../images/guide-background/guide-background-desktop@3x.avif") type("image/avif") 3x,*/
-                    /*url("../images/guide-background/guide-background-desktop@2x.avif") type("image/avif") 2x,*/
-                    /*url("../images/guide-background/guide-background-desktop@1.5x.avif") type("image/avif") 1.5x,*/
-                    /*url("../images/guide-background/guide-background-desktop@1.25x.avif") type("image/avif") 1.25x,*/
-                    /*url("../images/guide-background/guide-background-desktop@1x.avif") type("image/avif") 1x,*/
+                    url("../images/guide-background/guide-background-desktop@3x.avif") type("image/avif") 3x,
+                    url("../images/guide-background/guide-background-desktop@2x.avif") type("image/avif") 2x,
+                    url("../images/guide-background/guide-background-desktop@1.5x.avif") type("image/avif") 1.5x,
+                    url("../images/guide-background/guide-background-desktop@1.25x.avif") type("image/avif") 1.25x,
+                    url("../images/guide-background/guide-background-desktop@1x.avif") type("image/avif") 1x,
                     url("../images/guide-background/guide-background-desktop@3x.jpg") type("image/jpeg") 3x,
                     url("../images/guide-background/guide-background-desktop@2x.jpg") type("image/jpeg") 2x,
                     url("../images/guide-background/guide-background-desktop@1.5x.jpg") type("image/jpeg") 1.5x,
@@ -127,11 +127,11 @@
     @supports (background: image-set("foo.png" type("image/png")) ) {
         .guide__inner {
             background-image: image-set(
-                /*url("../images/guide-background/guide-background-smartphone@3x.avif") type("image/avif") 3x,*/
-                /*url("../images/guide-background/guide-background-smartphone@2x.avif") type("image/avif") 2x,*/
-                /*url("../images/guide-background/guide-background-smartphone@1.5x.avif") type("image/avif") 1.5x,*/
-                /*url("../images/guide-background/guide-background-smartphone@1.25x.avif") type("image/avif") 1.25x,*/
-                /*url("../images/guide-background/guide-background-smartphone@1x.avif") type("image/avif") 1x,*/
+                url("../images/guide-background/guide-background-smartphone@3x.avif") type("image/avif") 3x,
+                url("../images/guide-background/guide-background-smartphone@2x.avif") type("image/avif") 2x,
+                url("../images/guide-background/guide-background-smartphone@1.5x.avif") type("image/avif") 1.5x,
+                url("../images/guide-background/guide-background-smartphone@1.25x.avif") type("image/avif") 1.25x,
+                url("../images/guide-background/guide-background-smartphone@1x.avif") type("image/avif") 1x,
                 url("../images/guide-background/guide-background-smartphone@3x.jpg") type("image/jpeg") 3x,
                 url("../images/guide-background/guide-background-smartphone@2x.jpg") type("image/jpeg") 2x,
                 url("../images/guide-background/guide-background-smartphone@1.5x.jpg") type("image/jpeg") 1.5x,
