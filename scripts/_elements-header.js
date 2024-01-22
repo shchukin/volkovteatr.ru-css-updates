@@ -12,9 +12,10 @@
     }
 
     function closeBurger() {
-        $html.removeClass('burger-expanded');
-        $('.nav__item').removeClass('nav__item--expanded');
-        $(window).scrollTop(rememberedPageScrollPosition);/* При закрытии меню скролл должен быть там, где пользователь его оставил */
+        if( $html.hasClass('burger-expanded') ) {
+            $html.removeClass('burger-expanded');
+            $(window).scrollTop(rememberedPageScrollPosition);/* При закрытии меню скролл должен быть там, где пользователь его оставил */
+        }
     }
 
     $('.elements-header__burger').on('click', function () {
@@ -33,10 +34,11 @@
     $('.elements-header__link').on('click', function (event) {
         event.preventDefault();
 
+
         /* Сначала закрываем бургер */
         closeBurger();
 
-        
+
         /* Непосредственно якорь */
 
         const $target = $( $(this).attr('href') );

@@ -7,11 +7,11 @@
         color: #FFFFFF;
 
         /* Можно сделать position: fixed: */
-        /*position: fixed;*/
-        /*left: 0;*/
-        /*top: 0;*/
-        /*right: 0;*/
-        /*z-index: 1000;*/
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        z-index: 1000;
     }
         .elements-header__wrap {
             position: relative;
@@ -63,7 +63,7 @@
 
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
 
     .elements-header {
 
