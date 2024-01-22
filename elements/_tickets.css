@@ -18,18 +18,45 @@
         .tickets__item:first-child {
             margin-top: 0;
         }
-            .tickets__sub-heading {
-                margin-top: 0;
-                margin-bottom: 0;
-                padding-right: 16px;
-                font-weight: 600;
-                font-size: 22px;
-                line-height: 26px;
+            .tickets__main-info {
+
             }
+                .tickets__sub-heading {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    padding-right: 16px;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 26px;
+                }
+
+                .tickets__schedule {
+                    margin-top: 25px;
+                    font-size: 18px;
+                    line-height: 22px;
+                }
 
             .tickets__contains {
 
             }
+
+            .tickets__info {
+
+            }
+                .tickets__line {
+
+                }
+                    .tickets__price {
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 24px;
+                    }
+
+                    .tickets__kind {
+                        margin-left: 12px;
+                        font-size: var(--body-font-size);
+                        line-height: var(--body-line-height);
+                    }
 
             .tickets__actions {
                 text-align: right;
@@ -59,12 +86,23 @@
             .tickets__item:first-child {
 
             }
-                .tickets__sub-heading {
-                    font-size: 18px;
-                    line-height: 22px;
+                .tickets__main-info {
+
                 }
+                    .tickets__sub-heading {
+                        font-size: 18px;
+                        line-height: 22px;
+                    }
+
+                    .tickets__schedule {
+
+                    }
 
                 .tickets__contains {
+                    margin-top: 24px;
+                }
+
+                .tickets__info {
                     margin-top: 24px;
                 }
 

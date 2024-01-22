@@ -1,6 +1,6 @@
 (function($) {
 
-    const scrollSpeedPer100ms = 200; /* 200px per 100ms */
+    const scrollSpeedPer100ms = 300; /* 300px per 100ms */
 
     $('.anchor').on('click', function (event) {
         event.preventDefault();
