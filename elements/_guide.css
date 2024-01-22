@@ -16,6 +16,24 @@
             border-radius: 10px;
             overflow: hidden;
         }
+
+        /* Если поддерживается image-set: */
+        @supports (background: image-set("foo.png" type("image/png")) ) {
+            .guide__inner {
+                background-image: image-set(
+                    /*url("../images/guide-background/guide-background-desktop@3x.avif") type("image/avif") 3x,*/
+                    /*url("../images/guide-background/guide-background-desktop@2x.avif") type("image/avif") 2x,*/
+                    /*url("../images/guide-background/guide-background-desktop@1.5x.avif") type("image/avif") 1.5x,*/
+                    /*url("../images/guide-background/guide-background-desktop@1.25x.avif") type("image/avif") 1.25x,*/
+                    /*url("../images/guide-background/guide-background-desktop@1x.avif") type("image/avif") 1x,*/
+                    url("../images/guide-background/guide-background-desktop@3x.jpg") type("image/jpeg") 3x,
+                    url("../images/guide-background/guide-background-desktop@2x.jpg") type("image/jpeg") 2x,
+                    url("../images/guide-background/guide-background-desktop@1.5x.jpg") type("image/jpeg") 1.5x,
+                    url("../images/guide-background/guide-background-desktop@1.25x.jpg") type("image/jpeg") 1.25x,
+                    url("../images/guide-background/guide-background-desktop@1x.jpg") type("image/jpeg") 1x
+                );
+            }
+        }
             .guide__inner::before {
                 content: "";
                 position: absolute;
@@ -23,7 +41,7 @@
                 top: 0;
                 right: 0;
                 bottom: 0;
-                background-color: rgba(0, 0, 0, 0.4);
+                /*background-color: rgba(0, 0, 0, 0.4);*/
             }
 
             .guide__logo {
@@ -104,48 +122,25 @@
         padding-right: 16px;
         background-image: url("../images/guide-background/guide-background-smartphone@1x.jpg");
     }
+
+    /* Если поддерживается image-set: */
+    @supports (background: image-set("foo.png" type("image/png")) ) {
+        .guide__inner {
+            background-image: image-set(
+                /*url("../images/guide-background/guide-background-smartphone@3x.avif") type("image/avif") 3x,*/
+                /*url("../images/guide-background/guide-background-smartphone@2x.avif") type("image/avif") 2x,*/
+                /*url("../images/guide-background/guide-background-smartphone@1.5x.avif") type("image/avif") 1.5x,*/
+                /*url("../images/guide-background/guide-background-smartphone@1.25x.avif") type("image/avif") 1.25x,*/
+                /*url("../images/guide-background/guide-background-smartphone@1x.avif") type("image/avif") 1x,*/
+                url("../images/guide-background/guide-background-smartphone@3x.jpg") type("image/jpeg") 3x,
+                url("../images/guide-background/guide-background-smartphone@2x.jpg") type("image/jpeg") 2x,
+                url("../images/guide-background/guide-background-smartphone@1.5x.jpg") type("image/jpeg") 1.5x,
+                url("../images/guide-background/guide-background-smartphone@1.25x.jpg") type("image/jpeg") 1.25x,
+                url("../images/guide-background/guide-background-smartphone@1x.jpg") type("image/jpeg") 1x
+            );
+        }
+    }
     .guide__heading {
         max-width: 260px;
     }
 }
-
-
-
-
-
-
-
-
-
-        /*@media (min-resolution: 1.25dppx) {*/
-        /*    .guide__inner {*/
-        /*        background-image: url("../images/guide-background/guide-background-desktop@1.25x.jpg");*/
-        /*    }*/
-        /*}*/
-
-        /*@media (min-resolution: 1.5dppx) {*/
-        /*    .guide__inner {*/
-        /*        background-image: url("../images/guide-background/guide-background-desktop@1.5x.jpg");*/
-        /*    }*/
-        /*}*/
-
-        /*@media (min-resolution: 2dppx) {*/
-        /*    .guide__inner {*/
-        /*        background-image: url("../images/guide-background/guide-background-desktop@2x.jpg");*/
-        /*    }*/
-        /*}*/
-
-        /*@media (min-resolution: 3dppx) {*/
-        /*    .guide__inner {*/
-        /*        background-image: url("../images/guide-background/guide-background-desktop@3x.jpg");*/
-        /*    }*/
-        /*}*/
-
-        /*.guide__inner {*/
-        /*    background-image: image-set(*/
-        /*            url("../images/guide-background/guide-background-desktop@2x.avif") type("image/avif") 2x,*/
-        /*            url("../images/guide-background/guide-background-desktop.avif") type("image/avif") 1x,*/
-        /*            url("../images/guide-background/guide-background-desktop@2x.webp") type("image/webp") 2x,*/
-        /*            url("../images/guide-background/guide-background-desktop.webp") type("image/webp") 1x*/
-        /*    );*/
-        /*}*/
