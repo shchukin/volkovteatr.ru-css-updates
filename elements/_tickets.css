@@ -48,7 +48,7 @@
 
             .tickets__info {
                 padding-left: 40px;
-                flex-grow: 100;
+                flex-grow: 200;
                 flex-basis: 0;
                 flex-shrink: 0;
                 overflow: hidden;
@@ -78,6 +78,10 @@
                 flex-shrink: 0;
                 overflow: hidden;
                 text-align: right;
+            }
+
+            .tickets__info + .tickets__actions {
+                flex-grow: 200;
             }
 
     .tickets__privileges {
