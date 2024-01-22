@@ -1,46 +1,170 @@
 .guide {
-
+    margin-top: 60px;
+    padding-top: 80px;
 }
     .guide__panel {
 
     }
         .guide__inner {
+            position: relative;
             height: 500px;
-            background-image: url("../images/guide-background/guide-background@1x.jpg");
-            background-size: 1400px 500px;
+            padding: 80px 60px;
+            background-image: url("../images/guide-background/guide-background-desktop@1x.jpg");
+            background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
+            border-radius: 10px;
+            overflow: hidden;
         }
-
-        @media (min-resolution: 1.25dppx) {
-            .guide__inner {
-                background-image: url("../images/guide-background/guide-background@1.25x.jpg");
+            .guide__inner::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(0, 0, 0, 0.4);
             }
-        }
 
-        @media (min-resolution: 1.5dppx) {
-            .guide__inner {
-                background-image: url("../images/guide-background/guide-background@1.5x.jpg");
+            .guide__logo {
+                position: relative;
+                vertical-align: top;
+                width: auto;
+                height: 51px;
             }
-        }
 
-        @media (min-resolution: 2dppx) {
-            .guide__inner {
-                background-image: url("../images/guide-background/guide-background@2x.jpg");
+            .guide__heading {
+                position: relative;
+                margin-top: 32px;
+                max-width: 527px;
+                font-weight: bold;
+                font-size: 56px;
+                line-height: 66px;
+                color: #FFFFFF;
             }
-        }
 
-        @media (min-resolution: 3dppx) {
-            .guide__inner {
-                background-image: url("../images/guide-background/guide-background@3x.jpg");
-            }
+    .guide__description {
+        margin-top: 40px;
+        max-width: 919px;
+    }
+
+    .guide__stores {
+        margin-top: 40px;
+        display: flex;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+
+
+@media (max-width: 1200px) {
+
+.guide {
+    margin-top: 24px;
+    padding-top: 60px;
+}
+    .guide__panel {
+
+    }
+        .guide__inner {
+            /*position: relative;*/
+            height: 320px;
+            padding: 40px 60px;
+            /*background-image: url("../images/guide-background/guide-background-desktop@1x.jpg");*/
+            /*background-size: cover;*/
+            /*background-repeat: no-repeat;*/
+            /*background-position: center center;*/
+            /*border-radius: 10px;*/
+            /*overflow: hidden;*/
         }
+            .guide__inner::before {
+                /*content: "";*/
+                /*position: absolute;*/
+                /*left: 0;*/
+                /*top: 0;*/
+                /*right: 0;*/
+                /*bottom: 0;*/
+                /*background-color: rgba(0, 0, 0, 0.4);*/
+            }
+
+            .guide__logo {
+                /*position: relative;*/
+                /*vertical-align: top;*/
+                height: 33px;
+            }
+
+            .guide__heading {
+                /*position: relative;*/
+                /*margin-top: 32px;*/
+                max-width: 340px;
+                /*font-weight: bold;*/
+                font-size: 31px;
+                line-height: 36px;
+                /*color: #FFFFFF;*/
+            }
+
+    .guide__description {
+        /*margin-top: 40px;*/
+        /*max-width: 919px;*/
+    }
+
+    .guide__stores {
+        /*margin-top: 40px;*/
+        /*display: flex;*/
+        /*align-items: flex-start;*/
+        /*gap: 24px;*/
+    }
+}
+
+
+@media (max-width: 600px) {
+    .guide__inner {
+        padding-left: 16px;
+        padding-right: 16px;
+        background-image: url("../images/guide-background/guide-background-smartphone@1x.jpg");
+    }
+    .guide__heading {
+        max-width: 260px;
+    }
+}
+
+
+
+
+
+
+
+
+
+        /*@media (min-resolution: 1.25dppx) {*/
+        /*    .guide__inner {*/
+        /*        background-image: url("../images/guide-background/guide-background-desktop@1.25x.jpg");*/
+        /*    }*/
+        /*}*/
+
+        /*@media (min-resolution: 1.5dppx) {*/
+        /*    .guide__inner {*/
+        /*        background-image: url("../images/guide-background/guide-background-desktop@1.5x.jpg");*/
+        /*    }*/
+        /*}*/
+
+        /*@media (min-resolution: 2dppx) {*/
+        /*    .guide__inner {*/
+        /*        background-image: url("../images/guide-background/guide-background-desktop@2x.jpg");*/
+        /*    }*/
+        /*}*/
+
+        /*@media (min-resolution: 3dppx) {*/
+        /*    .guide__inner {*/
+        /*        background-image: url("../images/guide-background/guide-background-desktop@3x.jpg");*/
+        /*    }*/
+        /*}*/
 
         /*.guide__inner {*/
         /*    background-image: image-set(*/
-        /*            url("../images/guide-background/guide-background@2x.avif") type("image/avif") 2x,*/
-        /*            url("../images/guide-background/guide-background.avif") type("image/avif") 1x,*/
-        /*            url("../images/guide-background/guide-background@2x.webp") type("image/webp") 2x,*/
-        /*            url("../images/guide-background/guide-background.webp") type("image/webp") 1x*/
+        /*            url("../images/guide-background/guide-background-desktop@2x.avif") type("image/avif") 2x,*/
+        /*            url("../images/guide-background/guide-background-desktop.avif") type("image/avif") 1x,*/
+        /*            url("../images/guide-background/guide-background-desktop@2x.webp") type("image/webp") 2x,*/
+        /*            url("../images/guide-background/guide-background-desktop.webp") type("image/webp") 1x*/
         /*    );*/
         /*}*/

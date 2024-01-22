@@ -1,0 +1,21 @@
+.store {
+    display: inline-block;
+    vertical-align: top;
+}
+    .store__pic {
+        vertical-align: top;
+        width: auto;
+        height: 63px;
+    }
+
+
+
+@media (max-width: 1200px) {
+
+    .store {
+
+    }
+        .store__pic {
+            height: 45px;
+        }
+}
