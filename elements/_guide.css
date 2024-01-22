@@ -67,52 +67,33 @@
 
     }
         .guide__inner {
-            /*position: relative;*/
             height: 320px;
             padding: 40px 60px;
-            /*background-image: url("../images/guide-background/guide-background-desktop@1x.jpg");*/
-            /*background-size: cover;*/
-            /*background-repeat: no-repeat;*/
-            /*background-position: center center;*/
-            /*border-radius: 10px;*/
+            border-radius: 2px;
             /*overflow: hidden;*/
         }
             .guide__inner::before {
-                /*content: "";*/
-                /*position: absolute;*/
-                /*left: 0;*/
-                /*top: 0;*/
-                /*right: 0;*/
-                /*bottom: 0;*/
-                /*background-color: rgba(0, 0, 0, 0.4);*/
+
             }
 
             .guide__logo {
-                /*position: relative;*/
-                /*vertical-align: top;*/
                 height: 33px;
             }
 
             .guide__heading {
-                /*position: relative;*/
-                /*margin-top: 32px;*/
+                margin-top: 24px;
                 max-width: 340px;
-                /*font-weight: bold;*/
                 font-size: 31px;
                 line-height: 36px;
-                /*color: #FFFFFF;*/
             }
 
     .guide__description {
-        /*margin-top: 40px;*/
-        /*max-width: 919px;*/
+        margin-top: 24px;
     }
 
     .guide__stores {
-        /*margin-top: 40px;*/
-        /*display: flex;*/
-        /*align-items: flex-start;*/
-        /*gap: 24px;*/
+        margin-top: 24px;
+        gap: 16px;
     }
 }
 
