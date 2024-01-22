@@ -32,7 +32,7 @@ new Swiper(".swiper--init-partners", {
     }
 });
 
-new Swiper(".swiper--tourism", {
+new Swiper(".swiper--init-tourism", {
     navigation: {
         prevEl: '.swiper-button-prev',
         nextEl: '.swiper-button-next',
@@ -72,7 +72,7 @@ new Swiper(".swiper--init-jumbotron", {
 });
 
 
-new Swiper(".swiper--exhibition", {
+new Swiper(".swiper--init-exhibition", {
     navigation: {
         prevEl: '.swiper-button-prev',
         nextEl: '.swiper-button-next',
