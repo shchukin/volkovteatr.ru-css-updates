@@ -10,8 +10,8 @@
     }
         .tickets__item {
             margin-top: 40px;
-            display: grid;
-            grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, 1fr); /* важно задать четыре колонки (1fr + 2fr + 1fr) чтобы */
+            display: flex;
+            align-items: center;
             gap: 16px;
         }
 
@@ -19,7 +19,10 @@
             margin-top: 0;
         }
             .tickets__main-info {
-
+                flex-grow: 300;
+                flex-basis: 0;
+                flex-shrink: 0;
+                overflow: hidden;
             }
                 .tickets__sub-heading {
                     margin-top: 0;
@@ -37,14 +40,25 @@
                 }
 
             .tickets__contains {
-
+                flex-grow: 600;
+                flex-basis: 0;
+                flex-shrink: 0;
+                overflow: hidden;
             }
 
             .tickets__info {
-
+                padding-left: 40px;
+                flex-grow: 100;
+                flex-basis: 0;
+                flex-shrink: 0;
+                overflow: hidden;
             }
                 .tickets__line {
+                    margin-top: 26px;
+                }
 
+                .tickets__line:first-child {
+                    margin-top: 0;
                 }
                     .tickets__price {
                         font-weight: 600;
@@ -59,6 +73,10 @@
                     }
 
             .tickets__actions {
+                flex-grow: 300;
+                flex-basis: 0;
+                flex-shrink: 0;
+                overflow: hidden;
                 text-align: right;
             }
 
@@ -79,7 +97,7 @@
             .tickets__item {
                 display: block;
                 margin-top: 24px;
-                padding-bottom: 16px;
+                padding-bottom: 24px;
                 border-bottom: 1px solid #000000;
             }
 
@@ -104,7 +122,23 @@
 
                 .tickets__info {
                     margin-top: 24px;
+                    padding-left: 0;
+                    margin-bottom: -80px;
                 }
+                    .tickets__line {
+                        margin-top: 18px;
+                    }
+                        .tickets__price {
+                            /*font-weight: 600;*/
+                            font-size: 18px;
+                            line-height: 20px;
+                        }
+
+                        .tickets__kind {
+                            margin-left: 8px;
+                            /*font-size: var(--body-font-size);*/
+                            /*line-height: var(--body-line-height);*/
+                        }
 
                 .tickets__actions {
                     margin-top: 24px;
