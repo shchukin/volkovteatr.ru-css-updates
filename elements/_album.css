@@ -34,7 +34,8 @@
 @media (width < 1200px) {
 
     .album {
-        padding-top: 80px;
+        margin-top: 20px;
+        padding-top: 60px;
     }
         .album__heading {
 
@@ -72,7 +73,7 @@
 @media (width < 600px) {
 
     .album {
-        /*padding-top: 80px;*/
+
     }
         .album__heading {
 
