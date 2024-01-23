@@ -19,3 +19,8 @@
 *::after {
     box-sizing: border-box;
 }
+
+[data-fancybox] {
+    position: static;
+    background: none;
+}
