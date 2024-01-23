@@ -66,9 +66,10 @@
         }
             .play__photo {
                 flex-shrink: 0;
+
             }
                 .play__photo .preview__pic {
-                    /*border-radius: 0;*/
+                    height: 13px;
                 }
 
         .play__schedule {
