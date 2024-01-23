@@ -21,6 +21,8 @@
 }
 
 [data-fancybox] {
+    width: auto;
+    height: auto;
     position: static;
     background: none;
 }
